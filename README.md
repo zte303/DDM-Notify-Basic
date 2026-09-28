@@ -1,6 +1,8 @@
 # DDM-Notify-Basic
 Uses Swift Notify to provide a basic notice to users about DDM Software Update. Idea and styling inspired by (but much more basic than) https://github.com/dan-snelson/DDM-OS-Reminder/
+
 This was originally written for a Jamf Pro environment with [SwiftDialog](https://github.com/swiftDialog/swiftDialog) version 2.5.6 
+Looks for active Teams/Zoom/WebEx meetings based on process and UDP sockets associated with each and silently passes if detected.
 
 MacOS version (up to 2 decimals) and Update deadline (YYYY-MM-DD HH:MM") are required and passed as parameter 4 and 5 respectively.
 
